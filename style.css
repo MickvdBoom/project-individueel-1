@@ -16,7 +16,9 @@ article p {
   text-align: center;
   background-color: white;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px 2px black
+  box-shadow: 2px 2px 2px 2px black;
+  padding: 5px 5px 5px 5px;
+  font-family: sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -44,11 +46,18 @@ header {
 }
 
 .homepage img {
+  margin-top: 1px;
   display: block;
-  margin-right: auto;
+  background-color: white;
+  width: 60%;
+  display: block;
   margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  padding: 5px 5px 5px 5px;
   margin-top: 15px;
-  width: 100%;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 2px 2px black
 }
 
 .kopen img {
@@ -180,16 +189,137 @@ nav input:checked ~ .menu {
   box-shadow: -20px 0 40px rgba(0, 0, 0, 0.3);
 }
 
-header, img {
+header img {
   padding-top: 3px;
   padding-left: 3px;
 }
 
-footer p {
+footer {
   background-color: #1A4700;
   width: 100%;
   color: white;
   text-align: center;
-  position: fixed;
-  bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.diy {
+  background-color: #1A4700;
+  max-width: 70%;
+  display: block;
+  margin-left: 20px;
+  margin-top: 15px;
+  border-radius: 0px 25px 0px 25px;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.diy img {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.diy2 {
+  background-color: #1A4700;
+  max-width: 70%;
+  display: block;
+  margin-left: 50px;
+  margin-top: 15px;
+  border-radius: 0px 25px 0px 25px;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 2px 2px 2px 2px black;
+
+}
+
+.diy2 img {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.diy2 a {
+  text-decoration: none;
+}
+
+.diy3 {
+  background-color: #1A4700;
+  max-width: 70%;
+  display: block;
+  margin-left: 80px;
+  margin-top: 15px;
+  border-radius: 0px 25px 0px 25px;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.diy3 img {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.diy4 {
+  background-color: #1A4700;
+  max-width: 70%;
+  display: block;
+  margin-left: 50px;
+  margin-top: 15px;
+  border-radius: 0px 25px 0px 25px;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.diy4 img {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.diy5 {
+  background-color: #1A4700;
+  max-width: 70%;
+  display: block;
+  margin-left: 20px;
+  margin-top: 15px;
+  border-radius: 0px 25px 0px 25px;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 2px 2px 2px 2px black;
+  padding-bottom: 15px;
+}
+
+.mijnmoestuin {
+  background-color: #1A4700;
+  max-width: 90%;
+  display: block;
+  padding: 5px 10px 5px 10px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.mijnmoestuin img {
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.mijnmoestuin p {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
